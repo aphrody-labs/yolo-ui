@@ -162,7 +162,7 @@ export function isHtmlSnippet(code: string, language?: string): boolean {
   const lower = trimmed.toLowerCase()
   if (lower.startsWith('<!doctype html')) return true
   if (lower.startsWith('<html')) return true
-  if (lower.startsWith('<svg') && /<svg[^>]*\bxmlns\s*=/.test(trimmed)) return true
+  if (lower.startsWith('<svg') && /<svg[^ lang="en" dir="ltr">]*\bxmlns\s*=/.test(trimmed)) return true
   return false
 }
 

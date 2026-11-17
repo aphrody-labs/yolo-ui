@@ -317,7 +317,7 @@ export function renderHumanBrowserHtml(
     `@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; } }`,
   ].join("\n");
   return `<!doctype html>${renderToString(
-    <html lang="en">
+    <html lang="en" dir="ltr">
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />

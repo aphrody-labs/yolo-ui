@@ -166,7 +166,7 @@ export function useScreenFit(): ScreenFit {
     update()
     window.addEventListener('resize', update)
     window.addEventListener('orientationchange', update)
-    // The text size is set on <html> by the shell after the first paint and when the system setting changes.
+    // The text size is set on <html lang="en" dir="ltr"> by the shell after the first paint and when the system setting changes.
     const watch = typeof MutationObserver === 'undefined' ? null : new MutationObserver(update)
     watch?.observe(document.documentElement, { attributes: true, attributeFilter: ['style', 'data-font-scale'] })
     return () => {

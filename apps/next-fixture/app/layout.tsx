@@ -54,7 +54,7 @@ export default function RootLayout({
   modal: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${robotoMono.variable} ${calSans.variable}`}>
+    <html lang="en" className={`${inter.variable} ${robotoMono.variable} ${calSans.variable}`} dir="ltr">
       <body className={inter.className}>
         {children}
         {modal}

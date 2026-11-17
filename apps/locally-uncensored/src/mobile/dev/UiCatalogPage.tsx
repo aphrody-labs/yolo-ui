@@ -86,7 +86,7 @@ const SAMPLE_ANSWER = [
   '',
   '```html',
   '<!doctype html>',
-  '<html><body><h1>Lisbon</h1></body></html>',
+  '<html lang="en" dir="ltr"><body><h1>Lisbon</h1></body></html>',
   '```',
   '',
   'Run `plan(2)` to print it.',

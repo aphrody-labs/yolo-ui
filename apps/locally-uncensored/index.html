@@ -1,7 +1,7 @@
 <!doctype html>
 <!--
   Bug (h): paint dark from the very first frame. The previous default
-  (no class on <html>) gave Tailwind nothing to match against until
+  (no class on <html lang="en" dir="ltr">) gave Tailwind nothing to match against until
   AppShell's useEffect ran one render later — that's the "weiß flash"
   you'd see between window-show and the first React commit, and the
   reason the app could even render fully white if the user happened to
