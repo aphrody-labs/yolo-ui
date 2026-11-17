@@ -1,4 +1,5 @@
 [package]
+publish = false
 name = "pdfcraft-cli"
 description = "PdfCraft command-line tool: inspect, render and robustness-check PDFs"
 version = "0.7.1"

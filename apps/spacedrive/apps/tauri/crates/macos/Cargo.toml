@@ -1,4 +1,5 @@
 [package]
+publish = false
 name    = "sd-desktop-macos"
 version = "0.1.0"
 

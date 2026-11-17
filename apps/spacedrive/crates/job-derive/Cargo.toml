@@ -1,4 +1,5 @@
 [package]
+publish = false
 edition = "2021"
 name    = "job-derive"
 version = "0.1.0"

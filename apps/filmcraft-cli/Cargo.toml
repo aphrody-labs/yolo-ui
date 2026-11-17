@@ -1,4 +1,5 @@
 [package]
+publish = false
 name = "filmcraft-cli"
 description = "FilmCraft headless CLI and MCP server"
 version = "0.9.0"

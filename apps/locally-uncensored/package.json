@@ -1,7 +1,7 @@
 {
   "name": "locally-uncensored",
   "version": "3.0.8",
-  "private": false,
+  "private": true,
   "description": "The all-in-one local AI studio for your desktop: chat, images, video and a coding agent in one app.",
   "license": "AGPL-3.0-only",
   "author": "purpledoubled",

@@ -1,4 +1,5 @@
 [package]
+publish = false
 name    = "sd-fda"
 version = "0.1.0"
 

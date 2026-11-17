@@ -1,4 +1,5 @@
 [package]
+publish = false
 name    = "sd-ffmpeg"
 version = "0.1.0"
 

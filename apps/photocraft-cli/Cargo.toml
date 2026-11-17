@@ -1,4 +1,5 @@
 [package]
+publish = false
 name = "photocraft-cli"
 description = "Headless Photocraft: convert, inspect, run commands, batch, MCP server"
 version = "0.8.2"
